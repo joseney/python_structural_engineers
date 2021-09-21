@@ -46,3 +46,5 @@ combos = combos.set_index("x")
 
 combos = combos.astype("float")
 combos.head()
+
+combos.to_csv("..\\tables\\combos2.csv")
